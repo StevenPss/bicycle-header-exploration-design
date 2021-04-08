@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+$colors: (
+    primary: #23272A,
+    secondary: #2C2F33,
+    secondary-darken: darken(#2C2F33, 10),
+    accent: #cfcac9
+);
+
+@function color($color-name) {
+    @return map-get($colors, $color-name);
+}
+
+$desktop: 640px;
+
+@mixin desktop {
+    @media (min-width: #{$desktop}) {
+        @content;
+    }
+}
+
+//scrollbar
+html {
+    --scrollbarBG: #2C2F33;
+    --thumbBG: #23272A;
+}
+body{
+    scrollbar-width: thin;
+    scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+    &::-webkit-scrollbar {
+        width: 11px;
+    }
+    &::-webkit-scrollbar-track {
+        background: var(--scrollbarBG);
+    }
+    &::-webkit-scrollbar-thumb {
+        background-color: var(--thumbBG) ;
+        border-radius: 6px;
+        border: 3px solid var(--scrollbarBG);
+    }
+}
+
+body, html{
+    background-color: color(primary);
+    height: 100%;
+    font-family: 'Montserrat';
+    color: color(accent);
+    overflow-x: hidden; 
+}
+
+.app{
+
+    #bg {
+        clip-path: inset(0 50% 0 0);
+        background-color: color(secondary);        
+        z-index: 1;
+    }
+
+    .navbar{
+        &.navbar-bg{
+            background-color: color(secondary);
+        }
+        .navbar-links{
+            a{
+                background-color: color(secondary);
+                &:hover{
+                    background-color: color(secondary-darken);
+                }
+            }
+        }
+    }
+
+    //Content with image
+    .main{
+        .main-content{
+            .main-image{
+                img{
+                    height: auto;
+                    object-fit: contain;
+                    @include desktop {
+                        height: 100vh;
+                    }
+                }
+            }
+        }
+    }
+}
