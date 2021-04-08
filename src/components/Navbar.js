@@ -33,9 +33,9 @@ function Navbar() {
                     <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
                         <div class="hidden sm:block sm:ml-6">
                             <div class="flex space-x-4 navbar-links">
-                                <a href="#" class="text-white px-3 py-2 rounded-md text-sm font-medium" aria-current="page">Home</a>
-                                <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Shop</a>
-                                <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">About</a>
+                                <a href="#home" class="text-white px-3 py-2 rounded-md text-sm font-medium" aria-current="page">Home</a>
+                                <a href="#shop" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Shop</a>
+                                <a href="#about" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">About</a>
                             </div>
                         </div>
                     </div>
@@ -44,9 +44,9 @@ function Navbar() {
 
             <div class={`sm:hidden ${isOpen ? 'block' : 'hidden'}`} id="mobile-menu">
                 <div class="px-2 pt-2 pb-3 space-y-1">
-                    <a href="#" class="text-white block px-3 py-2 rounded-md text-base font-medium" aria-current="page">Home</a>
-                    <a href="#" class="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Shop</a>
-                    <a href="#" class="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">About</a>
+                    <a href="#home" class="text-white block px-3 py-2 rounded-md text-base font-medium" aria-current="page">Home</a>
+                    <a href="#shop" class="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Shop</a>
+                    <a href="#about" class="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">About</a>
                 </div>
             </div>
         </nav>
