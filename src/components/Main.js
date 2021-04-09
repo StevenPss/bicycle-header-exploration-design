@@ -7,32 +7,27 @@ function Main() {
     let bicycleItem = useRef(null);
     let mainHeader = useRef(null);
 
+    //handle animations
+    let animations = (target, delay) => (
+        TweenMax.fromTo(
+            target.current, 
+            {opacity: 0}, 
+            {
+                opacity: 1,
+                duration: .8,
+                y: -20,
+                ease: Power3.easeOut,
+                delay: delay
+            }
+        )
+    )
+
     //when the page loads
     useEffect(() => {
-        //logo
-        TweenMax.fromTo(
-            bicycleItem.current, 
-            {opacity: 0}, 
-            {
-                opacity: 1,
-                duration: .8,
-                y: -20,
-                ease: Power3.easeOut,
-            }
-        )
-
-        //text
-        TweenMax.fromTo(
-            mainHeader.current, 
-            {opacity: 0}, 
-            {
-                opacity: 1,
-                duration: .8,
-                y: -20,
-                ease: Power3.easeOut,
-                delay: .2
-            }
-        )
+        //bicycle
+        animations(bicycleItem, .3)
+        //content
+        animations(mainHeader, .2)
     }, [])
 
     return (
