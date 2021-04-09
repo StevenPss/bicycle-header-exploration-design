@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+<h1 align="center">Bicycle header exploration design</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
 
-## Available Scripts
+<h2>
+   <a href="https://stevenpss-bicycle-header-exploration-design.netlify.app/">
+   Demo
+   </a>
+</h2>
 
-In the project directory, you can run:
+A bicycle header exploration design developed with [ReactJS](https://reactjs.org/) & [TailwindCSS](https://tailwindcss.com/). Got inspiration from a dribble design by [GoProtoz - Design Studio](https://dribbble.com/shots/14876332-Electrical-Bicycle-Concept).
 
-### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+[![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/StevenPss/bicycle-header-exploration-design/blob/main/LICENSE)
+<img src="https://img.shields.io/badge/developed%20by-StevenPss-blue.svg">
+[![Follow on GitHub](https://img.shields.io/github/followers/StevenPss?label=Follow&style=social)](https://github.com/StevenPss)
+<img src="https://img.shields.io/github/stars/StevenPss/bicycle-header-exploration-design.svg?style=flat">
+<img src="https://img.shields.io/github/languages/top/StevenPss/bicycle-header-exploration-design.svg"/>
+[![issues](https://img.shields.io/github/issues/StevenPss/bicycle-header-exploration-design.svg)](https://github.com/StevenPss/bicycle-header-exploration-design/issues)
+[![issues](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](https://github.com/StevenPss/bicycle-header-exploration-design/pulls)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+</p>
 
-### `yarn test`
+</div>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+## Bicycle header exploration design
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+All contributions are welcomed! (but please submit an issue to make sure the PR is warranted first)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+## Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Clone this repo
+    ```zsh
+    ~ git clone https://github.com/StevenPss/bicycle-header-exploration-design
+    ```
+2. Access your project directory 
+   ```zsh
+    ~ cd bicycle-header-exploration-design
+   ```
+3. Install dependencies
+   ```zsh
+    ~ yarn or npm install
+   ```
+4. Run the app
+   ```zsh
+    ~ yarn start or npm start
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Built With
 
-## Learn More
+<!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [ReactJS](https://reactjs.org/)
+- [TailwindCSS](https://tailwindcss.com/)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## Acknowledgements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
 
-### Analyzing the Bundle Size
+- [ReactJS](https://reactjs.org/)
+- [TailwindCSS](https://tailwindcss.com/docs)
+- [Design inspiration by GoProtoz - Design Studio](https://dribbble.com/shots/14876332-Electrical-Bicycle-Concept)
+- [Scrollbar Color by CSS Tricks | Andy Adams](https://css-tricks.com/almanac/properties/s/scrollbar-color/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+## Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- GitHub [@StevenPss](https://github.com/StevenPss)
+- Twitter [@StevenSelolo](https://twitter.com/StevenSelolo)
 
-### Advanced Configuration
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is an open-sourced software licensed under the [MIT license](https://github.com/StevenPss/bicycle-header-exploration-design/blob/main/LICENSE).
