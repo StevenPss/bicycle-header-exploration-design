@@ -28,7 +28,7 @@ A bicycle header exploration design developed with [ReactJS](https://reactjs.org
 
 All contributions are welcomed! (but please submit an issue to make sure the PR is warranted first)
 
-
+![screenshot](https://github.com/StevenPss/bicycle-header-exploration-design/blob/main/src/static/demo.png)
 
 ## Installation
 
