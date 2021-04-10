@@ -2,8 +2,10 @@
 
 $colors: (
     primary: #23272A,
+    primary-darken: darken(#23272A, 5),
     secondary: #2C2F33,
     secondary-darken: darken(#2C2F33, 10),
+    secondary-lighten: lighten(#2C2F33, 10),
     accent: #cfcac9
 );
 
@@ -52,6 +54,16 @@ body, html{
     overflow-x: hidden; 
 }
 
+//Loader
+.wrapper {
+    background-color: color(primary-darken);
+    .loader {
+        width: 8%;
+        height: 20vh;
+        background: color(secondary-lighten);  
+    }
+} 
+
 .app{
 
     #bg {
@@ -72,7 +84,7 @@ body, html{
                 }
             }
         }
-    }
+    }     
 
     //Content with image
     .main{
