@@ -58,6 +58,7 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
 
 - [ReactJS](https://reactjs.org/)
 - [TailwindCSS](https://tailwindcss.com/)
+- [Gsap](https://greensock.com/gsap/)
 
 
 ## Acknowledgements
@@ -65,9 +66,11 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
 <!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
 
 - [ReactJS](https://reactjs.org/)
-- [TailwindCSS](https://tailwindcss.com/docs)
+- [TailwindCSS docs](https://tailwindcss.com/docs)
+- [Gsap docs](https://greensock.com/docs/)
 - [Design inspiration by GoProtoz - Design Studio](https://dribbble.com/shots/14876332-Electrical-Bicycle-Concept)
 - [Scrollbar Color by CSS Tricks | Andy Adams](https://css-tricks.com/almanac/properties/s/scrollbar-color/)
+- [Codegridweb gsap example](https://github.com/codegridweb/Minimal-Landing-Page-Animation-Using-GSAP)
 
 
 ## Contact
