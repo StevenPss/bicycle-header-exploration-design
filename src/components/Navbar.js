@@ -23,7 +23,7 @@ function Navbar() {
     }, [])
 
     return (
-        <nav className="navbar bg-transparent sm:navbar-bg">
+        <nav className="navbar bg-transparent">
             <div className="max-w-6xl mx-auto px-2 sm:px-6 lg:px-8">
                 <div className="relative flex items-center justify-between h-16">
                     <div className="absolute inset-y-0 right-0 flex items-center sm:hidden">

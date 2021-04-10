@@ -73,9 +73,6 @@ body, html{
     }
 
     .navbar{
-        &.navbar-bg{
-            background-color: color(secondary);
-        }
         .navbar-links{
             a{
                 background-color: color(secondary);
