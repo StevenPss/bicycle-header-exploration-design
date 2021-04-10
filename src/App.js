@@ -18,9 +18,9 @@ function App() {
       wrapper.current,
       {
         duration: 2,
-        top: "-100%",
+        top: "-100vh",
         ease: Expo.easeInOut,
-        delay: 3.6
+        delay: 3.6,
       }
     )
     //loader
